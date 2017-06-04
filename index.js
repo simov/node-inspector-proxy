@@ -1,4 +1,4 @@
-import ProxyServer from './lib/ProxyServer';
+var ProxyServer = require('./lib/ProxyServer');
 
 const address = process.argv[2] || '0.0.0.0:9230';
 const [host, port] = address.split(':');
